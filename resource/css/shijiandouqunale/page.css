@@ -1,0 +1,174 @@
+html {
+  height:100%;
+}
+body {
+  padding:0;
+  text-align:center;
+  font-family:"Microsoft YaHei", "微软雅黑", "Open Sans", Arial, sans-serif;
+  position:relative;
+  margin:0;
+  height:100%;
+}
+
+.wrapper {
+  height:100%;
+  margin:0 auto; 
+  overflow:hidden;
+}
+.pointer {
+  color:#9b59b6;
+  font-family:'Pacifico', cursive;
+  font-size:30px;
+  margin-top:15px;
+}
+.main {
+  float:left;
+  width:100%;
+  margin:0 auto;
+}
+.main section .page_container {
+  position relative;
+  top:25%;
+  margin:0 auto 0;
+  max-width:950px;
+  z-index:3;
+}
+.main section {
+  overflow:hidden;
+}
+.main section > img {
+  position:absolute;
+  max-width:100%;
+  z-index:1;
+}
+body.disabled-onepage-scroll .onepage-wrapper  section {
+  min-height:100%;
+  height:auto;
+}
+
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+  padding: 20px;
+  margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+#music {
+  display:block;
+  position:absolute;
+  width:26px;
+  height:26px;
+  top:10px;
+  right:10px;
+  background-size:55px;
+  z-index:1000;
+  background-image:url('../images/shijiandouqunale/audio2.png');
+  background-repeat:no-repeat;
+  background-position:left center;
+  -webkit-animation-duration:1.5s;
+  -webkit-animation-delay:0s;
+}
+.more_rotate_run{
+  -webkit-animation-name:rotateZ_run !important;
+  -webkit-animation-timing-function: linear !important;
+  -webkit-animation-iteration-count: infinite ;
+  animation-name:rotateZ_run !important;
+  animation-timing-function: linear !important;
+  animation-iteration-count: infinite ;
+}
+
+@-webkit-keyframes rotateZ_run{
+  0%{-webkit-transform: rotateZ(0);opacity: 1}
+  100%{-webkit-transform: rotateZ(360deg);opacity: 1}
+}
+@keyframes rotateZ_run{
+  0%{transform: rotateZ(0);opacity: 1}
+  100%{transform: rotateZ(360deg);opacity: 1}
+}
+.toggleMusic{
+  background-position: right center !important;
+  -webkit-animation-play-state: paused !important;
+}
+.animate-paused{
+  -webkit-animation-play-state: paused !important;
+}
+.page{
+  background-attachment: initial;
+  background-color:initial;
+  background-size:100% 100%;
+  background-origin:initial;
+  background-clip:initial;
+  background-repeat:no-repeat;
+}
+.page1{
+  background-image:url('../../images/shijiandouqunale/bg1.jpg');
+}
+.page2{
+  background-image:url('../../images/shijiandouqunale/bg2.jpg');
+}
+.page3{
+  background-image:url('../../images/shijiandouqunale/bg3.jpg');
+}
+.page4{
+  background-image:url('../../images/shijiandouqunale/bg4.jpg');
+}
+.page5{
+  background-image:url('../../images/shijiandouqunale/bg5.jpg');
+}
+.page6{
+  background-image:url('../../images/shijiandouqunale/bg6.jpg');
+}
+
+.text-groups{
+  margin-top:2em;
+}
+.text{
+  color:#fff;
+  font-size:1.2em;
+  margin-top:1.2em;
+}
+.meta{
+  color:#e9a63d;
+  text-shadow:2px 3px rgba(6,0,1,.3);
+  font-size:2em;
+}
+.time-cloud p{
+  margin:0;
+}
+.time-cloud{
+  position:relative;
+  height:130px;
+  margin-top:30px;
+}
+.time-cloud .ani{
+  position:absolute;
+  visibility:hidden;
+}
+.media6{
+  margin:7.5em 0 0.5em;
+}
+@media (min-height: 568px){
+  .media6{
+    margin-top:8em;
+  }
+}
+@media (min-height: 533px){
+  .media6{
+    margin-top:8em;
+  }
+}
+@media (min-height: 640px){
+  .media6{
+    margin-top:8em;
+  }
+}
+@media (min-width: 375px){
+  .media6{
+    margin-top:8em;
+  }
+}
+@media (min-width: 414px){
+  .media6{
+    margin-top:8em;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "files": [{
+    "source": "resource/images/shijiandouqunale/bg1.jpg",
+    "type": "IMAGE",
+    "size": 33587.2
+  }, {
+    "source": "resource/images/shijiandouqunale/bg2.jpg",
+    "type": "IMAGE",
+    "size": 89804.8
+  }, {
+    "source": "resource/images/shijiandouqunale/bg3.jpg",
+    "type": "IMAGE",
+    "size": 79872.0
+  }, {
+    "source": "resource/images/shijiandouqunale/bg4.jpg",
+    "type": "IMAGE",
+    "size": 63488.0
+  }, {
+    "source": "resource/images/shijiandouqunale/bg5.jpg",
+    "type": "IMAGE",
+    "size": 83353.6
+  }, {
+    "source": "resource/images/shijiandouqunale/bg6.jpg",
+    "type": "IMAGE",
+    "size": 669.6
+  }]
+}
