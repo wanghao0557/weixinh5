@@ -62,7 +62,7 @@ body.disabled-onepage-scroll .main section .page_container, body.disabled-onepag
   right:10px;
   background-size:55px;
   z-index:1000;
-  background-image:url('../images/shijiandouqunale/audio2.png');
+  background-image:url('../../images/shijiandouqunale/audio2.png');
   background-repeat:no-repeat;
   background-position:left center;
   -webkit-animation-duration:1.5s;

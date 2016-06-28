@@ -23,5 +23,13 @@
     "source": "resource/images/shijiandouqunale/bg6.jpg",
     "type": "IMAGE",
     "size": 669.6
+  },{
+    "type":"AUDIO",
+    "sources": {
+      "mp3":{
+        "source":"resource/images/shijiandouqunale/shijiandouqunnaerle.mp3",
+        "size":2862612.48
+      }
+    }
   }]
 }

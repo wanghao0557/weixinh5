@@ -79,11 +79,11 @@
     <div id="html5Loader"></div>
     <img id="loading" src="resource/images/shijiandouqunale/loading.gif"/>
     <div id="cover"></div>
-    <!--<a href="#" id="music" class="hide">
+    <a href="#" id="music" class="hide">
       <audio id="audio" style="opacity:0;width:0;height:0;" controls="controls" loop="loop">
         <source style="" src="resource/images/shijiandouqunale/shijiandouqunnaerle.mp3" />
       </audio>
-    </a>-->
+    </a>
     <div class="wrapper swiper-container">
       <div class="main swiper-wrapper">
         <section class="page page1 swiper-slide">
@@ -174,8 +174,8 @@
             $('#loading').fadeOut('normal');
             $('#cover').addClass('hide');
             $('#array').removeClass('hide');
-            /*$('#music').removeClass('hide').addClass('more_rotate_run');*/
-            /*$('audio')[0].play();*/
+            $('#music').removeClass('hide').addClass('more_rotate_run');
+            $('audio')[0].play();
             var mySwiper = new Swiper ('.swiper-container', {
               direction : 'vertical',
               pagination: '.swiper-pagination',
@@ -212,6 +212,18 @@
             });
           }
       });
+      $(document).ready(function(){
+        $('#music').on('click',function(e) {
+          e.preventDefault();
+          if ($(this).hasClass('toggleMusic')) {
+            $(this).removeClass('toggleMusic');
+            $('audio')[0].play();
+          } else {
+            $('audio')[0].pause();
+            $(this).addClass('toggleMusic');
+          }
+        });
+      }); 
     </script>
   </body>
 </html>
